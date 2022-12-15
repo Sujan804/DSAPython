@@ -1,3 +1,5 @@
+
+"""Google Frequent ask"""
 class Solution:
     def encode(self, strs:list[str])->str:
         res = ""
@@ -16,5 +18,5 @@ class Solution:
             length = int[s[i:j]]
             res.append(s[j+1:j+1+length])
             i = j+1+length
-            
+
         return res
